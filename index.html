@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toko Yudha</title>
+  <link rel="stylesheet" href="store.css">
+  <script defer src="anu.js"></script>
+</head>
+<body>
+  <!-- Navigasi -->
+  <header>
+    <div class="logo">Toko Yudha</div>
+    <nav>
+      <ul>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#products">Produk</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Toko Yudha</h1>
+        <p>Tempat terbaik untuk mendapatkan produk berkualitas tinggi dengan harga terjangkau.</p>
+        <button onclick="scrollToSection('products')">Lihat Produk</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tentang -->
+  <section id="about">
+    <div class="container">
+      <h2>Tentang Kami</h2>
+      <p>Kami adalah toko yang mengutamakan kualitas dan kepuasan pelanggan. Dengan berbagai pilihan produk, kami siap memenuhi kebutuhan Anda.</p>
+      <img src="about.jpg" alt="Tentang Kami">
+    </div>
+  </section>
+
+  <!-- Produk -->
+  <section id="products">
+    <h2>Produk Kami</h2>
+    <div class="product-container">
+      <div class="product-card">
+        <img src="produk1.jpg" alt="Produk 1">
+        <div class="product-info">
+          <h3>Produk 1</h3>
+          <p>Rp50.000</p>
+          <button onclick="checkout('Produk 1')">Checkout</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/product2.jpg" alt="Produk 2">
+        <div class="product-info">
+          <h3>Produk 2</h3>
+          <p>Rp75.000</p>
+          <button onclick="checkout('Produk 2')">Checkout</button>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="images/product3.jpg" alt="Produk 3">
+        <div class="product-info">
+          <h3>Produk 3</h3>
+          <p>Rp100.000</p>
+          <button onclick="checkout('Produk 3')">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact">
+    <h2>Hubungi Kami</h2>
+    <p>Untuk pertanyaan atau pemesanan, hubungi kami melalui WhatsApp:</p>
+    <a href="https://wa.me/6285719120932?text=Halo%20Toko%20Yudha,%20saya%20ingin%20bertanya."
+       target="_blank" class="whatsapp-btn">WhatsApp Kami</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Toko Inspirasi. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
